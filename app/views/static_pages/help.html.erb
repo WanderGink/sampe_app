@@ -1,0 +1,9 @@
+<% provide :title, t ".head_title" %>
+<h1><%= t ".main_title" %></h1>
+<p>
+  <%= raw t(".main_content",
+    rails_tut_help_link: link_to(t("ror_tut_help"),
+    "http://www.railstutorial.org/help"),
+    rails_tut_book_link: link_to(t("ror_tut_book"),
+    "http://www.railstutorial.org/book")) %>
+</p>
