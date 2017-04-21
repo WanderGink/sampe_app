@@ -23,7 +23,7 @@ en:
   static_pages:
     home:
       head_title: "Home"
-      main_title: "Sample App"
+      main_title: "Welcom to the Sample App"
       main_content: "This is the home page for the %{rails_tut_link}
         sample application"
     help:
@@ -43,6 +43,11 @@ en:
       main_title: "Contact"
       main_content: "Contact the Ruby on Rails Tutorial about the sample
         app at the %{rails_tut_contact_link}"
+  users:
+    new:
+      head_title: "Sign up"
+      main_title: "Sign up"
+      main_content: "This will be a signup page for new users"
   app_title: "Ruby on Rails Tutorial Sample App"
   ror_tut: "Ruby on Rails Tutorial"
   screencast_series: "screencast series"
@@ -51,3 +56,12 @@ en:
   ror_tut_help: "Rails Tutorial help page"
   ror_tut_book: "Ruby on Rails Tutorial book"
   ror_tut_contact: "contact page"
+  en: "English"
+  vi: "Vietnamese"
+  login: "Log in"
+  signup: "Sign up now!"
+  sample_app: "sample app"
+  footer_small: "The %{rails_tut_link} by %{author_link}"
+  author_name: "Michael Hartl"
+  news: "News"
+

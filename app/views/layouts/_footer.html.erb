@@ -1,0 +1,14 @@
+<footer class="footer">
+  <small>
+    <%= raw t("footer_small",
+      rails_tut_link: link_to(t("ror_tut"), "http://www.railstutorial.org/"),
+      author_link: link_to(t("author_name"), "http://www.michaelhartl.com/")) %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t("static_pages.about.head_title"), about_path %></li>
+      <li><%= link_to t("static_pages.contact.head_title"), contact_path %></li>
+      <li><%= link_to t("news"), "http://news.railstutorial.org/" %></li>
+    </ul>
+  </nav>
+</footer>
