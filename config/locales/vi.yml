@@ -22,6 +22,11 @@ vi:
       main_title: "Liên hệ"
       main_content: "Liên hệ với Ruby on Rails Tutorial về mẫu
         ứng dụng tại %{rails_tut_contact_link}"
+  users:
+    new:
+      head_title: "Đăng ký"
+      main_title: "Đăng ký"
+      main_content: "Đây sẽ là trang đăng ký cho người dùng mới"
   app_title: "Ruby on Rails Tutorial Mẫu Ứng Dụng"
   ror_tut: "Ruby on Rails Tutorial"
   screencast_series: "screencast series"
@@ -30,4 +35,11 @@ vi:
   ror_tut_help: "Trang trợ giúp hướng dẫn Rails"
   ror_tut_book: "Sách hướng dẫn về Ruby on Rail"
   ror_tut_contact: "Trang liên hệ"
-
+  en: "Tiếng Anh"
+  vi: "Tiếng Việt"
+  login: "Đăng nhập"
+  signup: "Đăng ký ngay bây giờ"
+  sample_app: "sample app"
+  footer_small: "%{rails_tut_link} được viết bởi %{author_link}"
+  author_name: "Michael Hartl"
+  news: "Tin tức"
