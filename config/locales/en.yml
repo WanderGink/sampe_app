@@ -64,4 +64,7 @@ en:
   footer_small: "The %{rails_tut_link} by %{author_link}"
   author_name: "Michael Hartl"
   news: "News"
-
+  user_not_found: "Could not be found the user"
+  the_form_contains: "The form contains"
+  reg_success: "You have successfully registered and logged in."
+  error: "error"

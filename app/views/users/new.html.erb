@@ -1,3 +1,21 @@
 <% provide :title, t(".head_title") %>
 <h1><%= t ".main_title" %></h1>
-<p><%= t ".main_content" %></p>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for @user do |f| %>
+      <%= f.label :name %>
+      <%= f.text_field :name, class: "form-control" %>
+
+      <%= f.label :email %>
+      <%= f.email_field :email, class: "form-control" %>
+
+      <%= f.label :password %>
+      <%= f.password_field :password, class: "form-control" %>
+
+      <%= f.label :password_confirmation %>
+      <%= f.password_field :password_confirmation, class: "form-control" %>
+
+      <%= f.submit t("signup"), class: "btn btn-primary" %>
+    <% end %>
+  </div>
+</div>
