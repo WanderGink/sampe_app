@@ -2,7 +2,7 @@ vi:
   static_pages:
     home:
       head_title: "Trang chủ"
-      main_title: "App Mẫu"
+      main_title: "Chào mừng đến với app Mẫu"
       main_content: "Đây là trang chủ của %{rails_tut_link}
         mẫu ứng dụng"
     help:
@@ -47,3 +47,9 @@ vi:
   the_form_contains: "Form bao gồm"
   reg_success: "Bạn đã đăng ký thành công và đăng nhập."
   error: "error"
+  new_user: "Người dùng mới?"
+  danger_notification: "Email / mật khẩu không hợp lệ"
+  user: "Người dùng"
+  profile: "Hồ sơ"
+  settings: "Cài đặt"
+  logout: "Đăng xuất"
