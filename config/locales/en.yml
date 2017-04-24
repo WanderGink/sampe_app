@@ -23,10 +23,16 @@ en:
       main_content: "Contact the Ruby on Rails Tutorial about the sample
         app at the %{rails_tut_contact_link}"
   users:
+    index:
+      head_title: "All users"
     new:
       head_title: "Sign up"
-      main_title: "Sign up"
       main_content: "This will be a signup page for new users"
+    edit:
+      head_title: "Edit user"
+      main_title: "Update your profile"
+      save_changes: "Save changes"
+      change: "Change"
   app_title: "Ruby on Rails Tutorial Sample App"
   ror_tut: "Ruby on Rails Tutorial"
   screencast_series: "screencast series"
@@ -50,7 +56,13 @@ en:
   new_user: "New user?"
   danger_notification: "Invalid email/password combination"
   user: "User"
+  users: "Users"
   profile: "Profile"
   settings: "Settings"
   logout: "Log out"
   remember_me: "Remember me"
+  profile_updated: "Profile updated"
+  require_login: "Please log in!"
+  delete: "Delete"
+  sure: "Do you sure?"
+  user_deleted: "User deleted"
