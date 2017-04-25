@@ -23,10 +23,16 @@ vi:
       main_content: "Liên hệ với Ruby on Rails Tutorial về mẫu
         ứng dụng tại %{rails_tut_contact_link}"
   users:
+    index:
+      head_title: "Tất cả người dùng"
     new:
       head_title: "Đăng ký"
-      main_title: "Đăng ký"
       main_content: "Đây sẽ là trang đăng ký cho người dùng mới"
+    edit:
+      head_title: "Chỉnh sửa người dùng"
+      main_title: "Cập nhật thông tin hồ sơ người dùng"
+      save_changes: "Lưu thay đổi"
+      change: "Thay đổi"
   app_title: "Ruby on Rails Tutorial Mẫu Ứng Dụng"
   ror_tut: "Ruby on Rails Tutorial"
   screencast_series: "screencast series"
@@ -50,7 +56,13 @@ vi:
   new_user: "Người dùng mới?"
   danger_notification: "Email / mật khẩu không hợp lệ"
   user: "Người dùng"
+  users: "Mọi người dùng"
   profile: "Hồ sơ"
   settings: "Cài đặt"
   logout: "Đăng xuất"
   remember_me: "Ghi nhớ"
+  profile_updated: "Thông tin hồ sơ được cập nhật"
+  require_login: "Vui lòng đăng nhập!"
+  delete: "Xóa"
+  sure: "Bạn có chắc không?"
+  user_deleted: "Người dùng đã được xóa"

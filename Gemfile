@@ -17,6 +17,9 @@ gem "bootstrap-sass", "3.3.6"
 gem "turbolinks", "~> 5"
 gem "jbuilder", "~> 2.5"
 gem "bcrypt", "3.1.11"
+gem "faker"
+gem "will_paginate"
+gem "bootstrap-will_paginate"
 
 group :development, :test do
   gem "byebug", platform: :mri
