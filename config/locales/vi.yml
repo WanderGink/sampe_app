@@ -81,3 +81,16 @@ vi:
   check_email_for_validate_link: "Kiểm tra email của bạn
     để biết link kích hoạt."
   invalid_activation_link: "Link kích hoạt không hợp lệ"
+  forgot_pwd: "quên mật khẩu"
+  reset_pwd: "Đặt lại mật khẩu"
+  update_pwd: "Cập nhật mật khẩu"
+  email_sent_pwd_reset_guide: "Email đã gửi hướng dẫn đặt lại mật khẩu"
+  email_not_found: "Không tìm thấy email"
+  can_not_empty: "Không thể để trống"
+  pwd_has_been_reset: "Mật khẩu đã được đặt lại"
+  pwd_expired: "Đặt lại mật khẩu đã hết hạn"
+  to_reset_click_link_below: "Chọn link bên dưới để đặt lại mật khẩu:"
+  this_link_expire_two_hours: "Link này sẽ tự mất sau 2 tiếng."
+  ignore_this_email_if_not_request_password: "Nếu bạn không có ý định đặt lại
+    mật khẩu, xin hãy bỏ qua email này"
+
