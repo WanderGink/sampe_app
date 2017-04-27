@@ -33,6 +33,12 @@ en:
       main_title: "Update your profile"
       save_changes: "Save changes"
       change: "Change"
+  user_mailer:
+    account_activation:
+      hi: "Hi"
+      active: "Activate"
+      welcome_mailer: "Welcome to the Sample App!
+        Click on the link below to activate your account:"
   app_title: "Ruby on Rails Tutorial Sample App"
   ror_tut: "Ruby on Rails Tutorial"
   screencast_series: "screencast series"
@@ -45,7 +51,7 @@ en:
   vi: "Vietnamese"
   login: "Log in"
   signup: "Sign up now!"
-  sample_app: "sample app"
+  sample_app: "Sample app"
   footer_small: "The %{rails_tut_link} by %{author_link}"
   author_name: "Michael Hartl"
   news: "News"
@@ -66,3 +72,11 @@ en:
   delete: "Delete"
   sure: "Do you sure?"
   user_deleted: "User deleted"
+  acc_activation: "Account activation"
+  acc_actived: "Account activated"
+  pwd_reset: "Password reset"
+  pwd_reset_content: "To reset your password click the link below:"
+  check_email: "Please check your email to activate your account."
+  acc_not_activated: "Account not activated"
+  check_email_for_validate_link: "Check your email for the activation link."
+  invalid_activation_link: "Invalid activation link"

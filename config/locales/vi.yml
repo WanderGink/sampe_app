@@ -33,6 +33,12 @@ vi:
       main_title: "Cập nhật thông tin hồ sơ người dùng"
       save_changes: "Lưu thay đổi"
       change: "Thay đổi"
+  user_mailer:
+    account_activation:
+      hi: "Xin chào"
+      active: "Kích hoạt"
+      welcome_mailer: "Chào mừng bạn đến với Sample app!
+        Nhấp vào liên kết dưới đây để kích hoạt tài khoản của bạn:"
   app_title: "Ruby on Rails Tutorial Mẫu Ứng Dụng"
   ror_tut: "Ruby on Rails Tutorial"
   screencast_series: "screencast series"
@@ -45,7 +51,7 @@ vi:
   vi: "Tiếng Việt"
   login: "Đăng nhập"
   signup: "Đăng ký"
-  sample_app: "sample app"
+  sample_app: "Sample app"
   footer_small: "%{rails_tut_link} được viết bởi %{author_link}"
   author_name: "Michael Hartl"
   news: "Tin tức"
@@ -66,3 +72,12 @@ vi:
   delete: "Xóa"
   sure: "Bạn có chắc không?"
   user_deleted: "Người dùng đã được xóa"
+  acc_activation: "Kích hoạt tài khoản"
+  acc_actived: "Tài khoản được kích hoạt"
+  pwd_reset: "Xóa mật khẩu"
+  pwd_reset_content: "Để xóa mật khẩu hãy truy cập link dưới đây:"
+  check_email: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn"
+  acc_not_activated: "Tài khoản chưa được kích hoạt"
+  check_email_for_validate_link: "Kiểm tra email của bạn
+    để biết link kích hoạt."
+  invalid_activation_link: "Link kích hoạt không hợp lệ"
