@@ -43,6 +43,7 @@ class UsersController < ApplicationController
 
   def show
     redirect_to root_url and return unless @user
+    @microposts = @user.microposts.paginate page: params[:page]
   end
 
   private
@@ -56,14 +57,6 @@ class UsersController < ApplicationController
     unless @user
       flash[:error] = t "user_not_found"
       redirect_to root_url
-    end
-  end
-
-  def logged_in_user
-    unless logged_in?
-      store_location
-      flash[:danger] = t "require_login"
-      redirect_to login_url
     end
   end
 
